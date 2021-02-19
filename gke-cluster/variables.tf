@@ -2,6 +2,10 @@ variable "deployment_name" {
   default = "example"
 }
 
+variable "google_domain_name" {
+  default = "example.com"
+}
+
 variable "google_project_id" {
   default = "get-from-console"
 }
