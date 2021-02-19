@@ -5,3 +5,7 @@ variable "google_project_id" {
 variable "google_credentials_json" {
   default = "service-account.json"
 }
+
+variable "email" {
+  default = "admin@exmaple.com"
+}
