@@ -34,7 +34,7 @@ datasources:
    datasources:
    - name: Prometheus
      type: prometheus
-     url: http://prometheus-server:80
+     url: http://prometheus-server.prometheus.svc.cluster.local:80
      access: proxy
      isDefault: true
 EOF
