@@ -9,3 +9,16 @@ variable "google_credentials_json" {
 variable "email" {
   default = "admin@exmaple.com"
 }
+
+variable "google_domain_name" {
+  default = "example.com"
+}
+
+variable "grafana_username" {
+  default = "admin"
+}
+
+variable "grafana_password" {
+  default = "strongpassword"
+}
+
