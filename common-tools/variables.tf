@@ -22,3 +22,11 @@ variable "grafana_password" {
   default = "strongpassword"
 }
 
+variable "jenkins_username" {
+  default = "admin"
+}
+
+variable "jenkins_password" {
+  default = "strongpassword"
+}
+
